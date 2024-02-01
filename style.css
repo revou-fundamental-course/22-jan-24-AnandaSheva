@@ -175,7 +175,7 @@
   .form__input {
     border-bottom: 2px solid #fff;
     background-color: transparent;
-    color: yellow;
+    color:  rgba(0, 0, 0, 0.646);
     resize: none;
   }
   .form__input::placeholder {
@@ -436,6 +436,7 @@
   }
   
   .newsletter__input {
+    margin-top: 10px;
     display: flex;
   }
   
@@ -499,3 +500,15 @@
   .hero-box .description {
     font-size: 1.7rem;
   }
+
+  .typedText{
+    text-transform: capitalize;
+    color: var(--text-color-third);
+}
+
+.featured-name{
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--text-color-second);
+  margin-block: 20px;
+}
