@@ -15,10 +15,6 @@ menu.onchange = function(){
     console.log(optionText, index);
 }
 
-
-
-
-
 form.onsubmit = function(e){
     e.preventDefault();
 
